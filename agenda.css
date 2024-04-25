@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    padding-top: 100px;
+}
+
+header h1{
+ margin-top: 5px;
+}
+
+header{
+    position: relative;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px ;
+}
+
+header img{
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+form input,button{
+    position: relative;
+    left: 300px;
+}
+
+
+form{
+    
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+
+form input{ /* tamanho de fonte nome e telefone */
+    font-size: 30px;
+    font-weight: bold; color: #009432; /*cor da letra e colocando como negrito*/
+    border: none; /*tirei a borda*/
+    border-bottom: 2px solid #000; /*linha inferior no nome e telefone*/
+    padding: 15px; /*distância entre o conteúdo e a bordas*/
+}
+
+form button{ /*mexendo no botão*/
+    font-size: 24px; /*tamanho do botão*/
+    background-color: #009432; /*cor de fundo do botão*/
+    border: black solid;
+    padding: 8px;
+    color: #fff; /*cor de texto do botão */
+    font-weight: bold; /*especifica o peso ou a intensidade da fonte*/
+}
+
+form button{
+    background-color: #009432;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+}
+
+
+table{
+    width: 100%;
+}
+
+
+table th{
+    border-bottom:  2px solid #0040ff;
+    padding: 16px;
+    font-size: 24px;
+    font-weight:900;
+}
+
+table td{
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+table td, img{
+    height: 30px;
+}
+
+.operadora{
+    padding:  8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+}
+
